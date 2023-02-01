@@ -1,0 +1,70 @@
+.logo {
+  position: absolute;
+  left: 2%;
+  right: 87.33%;
+  top: 3.14%;
+  bottom: 5.69%;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 0px 0px 25px;
+  gap: 24px;
+
+  position: absolute;
+  left: 74.31%;
+  right: 0%;
+  top: 4.14%;
+  bottom: 0%;
+  width: 377.67px;
+  height: 18px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  font-weight: 400;
+  font-size: 18px;
+  color: #5D5A88;
+}
+
+.nav-bar > a {
+  text-decoration: none;
+}
+
+a:visited{
+  color:inherit;
+}
+.login{
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 18px 24px;
+  gap: 8px;
+
+  width: 87px;
+  height: 54px;
+
+  background: #54BFC9;
+  /* Neutral Colors/Color 600 */
+
+  border: 1px solid #D4D2E3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+
+  text-align: center;
+
+  color: #FFFFFF;
+}

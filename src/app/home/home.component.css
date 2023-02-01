@@ -1,0 +1,46 @@
+.body{
+  position: relative;
+  height: 100%;
+  background: #F5F2F4;
+}
+.paragrah{
+  position: absolute;
+  width: 574px;
+  height: 132.83px;
+  left: 652px;
+  top: 132px;
+
+  /* Headings/H1 */
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 66px;
+  /* or 118% */
+
+  text-align: center;
+
+  color: #5D5A88;
+
+}
+.description{
+  position: absolute;
+  width: 929px;
+  height: 90.57px;
+  left: 465px;
+  top: 317.94px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #5D5A88;
+}
+.cover{
+  position: absolute;
+  height: 469px;
+  left: 172px;
+  top: 403px;
+}
