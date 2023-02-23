@@ -1,0 +1,274 @@
+.btnLogin {
+  position: absolute;
+  width: 275px;
+  height: 151px;
+  left: 116px;
+  top: 1063px;
+  background: #54BFC9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #FFFFFF;
+  z-index: -1;
+}
+
+.lock {
+  position: absolute;
+  width: 49px;
+  height: 58px;
+  top: 29px;
+  left: 117px;
+}
+
+.btnLoginTxt {
+  top: 100px;
+  position: absolute;
+  left: 42px;
+}
+
+.sphere {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 215px;
+  top: 1003px;
+}
+
+.usericon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 224px;
+  top: 17px
+}
+
+.btnFlashCal {
+  position: absolute;
+  width: 275px;
+  height: 265px;
+  left: 431px;
+  top: 1003px;
+  background: #FE7624;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+}
+
+.calender {
+  position: absolute;
+  width: 121px;
+  height: 96px;
+  left: 73px;
+  top: 57px;
+}
+
+.btnCalTxt {
+  position: absolute;
+  width: 96px;
+  height: 36px;
+  left: 40px;
+  top: 193px;
+  font-size: 18px;
+  line-height: 18px;
+  /* or 100% */
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.flashCalender {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 218px;
+  top: 26px;
+}
+
+.magnifier {
+  position: absolute;
+  width: 730.65px;
+  height: 1080px;
+  left: 664px;
+  top: 1031.52px;
+  transform: rotate(-15deg);
+  z-index: -1;
+
+}
+
+.btnTmtAnalysis {
+  position: absolute;
+  width: 275px;
+  height: 265px;
+  left: 746px;
+  top: 1003px;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 18px;
+  background: #54BFC9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  color: #FFFFFF;
+
+}
+
+.flashAnalysis {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 227px;
+  top: 22px;
+}
+
+.btnQuickUpdate {
+  position: absolute;
+  width: 275px;
+  height: 201px;
+  left: 1061px;
+  top: 1003px;
+  font-family: 'DM Sans', sans-serif;
+  background: #1D7000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  color: #FFFFFF;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.flashQuickUpdate {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 227px;
+  top: 22px;
+
+}
+
+.btnFlashQuickUpdate {
+
+}
+
+.btnHandBook {
+  position: absolute;
+  width: 275px;
+  height: 330px;
+  left: 116px;
+  top: 1244px;
+  color: #FFFFFF;
+  font-family: 'DM Sans', sans-serif;
+  background: #5D5A88;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.flashHandBook {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 227px;
+  top: 22px;
+}
+
+.btnFlashHandBook {
+
+}
+
+.btnAccountVal {
+  position: absolute;
+  width: 275px;
+  height: 265px;
+  left: 431px;
+  top: 1308px;
+  color: #FFFFFF;
+  font-family: 'DM Sans', sans-serif;
+  background: #54BFC9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.flashAccountVal {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 227px;
+  top: 22px;
+}
+
+.btnFlashAccountVal {
+
+}
+
+.btnYoutube {
+  position: absolute;
+  width: 275px;
+  height: 265px;
+  left: 746px;
+  top: 1308px;
+  color: #FFFFFF;
+  font-family: 'DM Sans', sans-serif;
+  background: #BF0000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.flashYoutube {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 227px;
+  top: 22px;
+}
+
+.btnFlashYoutube {
+
+}
+
+.btnContact {
+  position: absolute;
+  width: 275px;
+  height: 330px;
+  left: 1061px;
+  top: 1244px;
+  color: #FFFFFF;
+  font-family: 'DM Sans', sans-serif;
+  background: #54BFC9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.flashContact {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 227px;
+  top: 22px;
+}
+
+.btnFlashContact {
+
+}
+.menu-items{
+  align-items: center;
+  height: 648px;
+  left: 179px;
+  padding: 26px 25px;
+  width:1288px;
+  position: relative;
+}

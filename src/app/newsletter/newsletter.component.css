@@ -1,0 +1,151 @@
+.news{
+  background: #54BFC9;
+  position: absolute;
+  width: 1920px;
+  height: 408px;
+  left: 0;
+  top: 2550px;
+  mix-blend-mode: normal;
+  margin-top: 120px;
+}
+.letter{
+  position: absolute;
+  width: 324px;
+  height: 341px;
+
+}
+.letterBox{
+  position: absolute;
+  width: 582px;
+  height: 441px;
+  left: 1327px;
+  top: 0;
+
+}
+.subscribe-div{
+  position: absolute;
+  width: 1181px;
+  height: 110.63px;
+  left: 149px;
+  top: 0px;
+}
+.heading{
+  font-family: 'DM Sans', sans-serif;
+  position: absolute;
+  width: 448.79px;
+  height: 92px;
+  left: 49px;
+  top: 182px;;
+
+}
+.subscribe-button{
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 18px 24px;
+  gap: 8px;
+
+  position: absolute;
+  width: 161px;
+  height: 54px;
+  left: 1014px;
+  top: 167px;
+
+  background: #F9F9FF;
+  border: 1px solid #54BFC9;
+  border-radius: 30px;
+}
+.subscribe-text{
+
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+  position: absolute;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  top:17px;
+  left:18px;
+  color: #54BFC9;
+}
+.arrow{
+  position: absolute;
+  left: 133.25px;
+  top: 14.65px;
+  width: 18px;
+  height: 18px;
+}
+
+.email-enter{
+
+  position: absolute;
+  width: 135px;
+  left: 716px;
+  top: 189px;
+  bottom: 201px;
+
+  /* Text single/200/Regular */
+
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height, or 100% */
+
+
+  color: #F9F9FF;
+
+}
+.divider3{
+  position: absolute;
+  width: 535px;
+  left: 795px;
+  top: 232px;
+
+}
+.join-user-text{
+  position: absolute;
+  width: 339px;
+  height: 18px;
+  left: 910.95px;
+  top: 274px;
+
+  /* Text single/200/Bold */
+
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height, or 100% */
+
+
+  /* Neutral Colors/Headings Black */
+
+  color: #5D5A88;
+
+}
+.circle{
+  position: absolute;
+  left: 45.83%;
+  right: 37.36%;
+  top: 67%;
+  bottom: 32.69%;
+
+}
+.cxlogo{
+  position: absolute;
+  width: 373.95px;
+  height: 23.63px;
+  left: 876px;
+  top: 251px;
+}

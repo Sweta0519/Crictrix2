@@ -13,6 +13,12 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatIconModule} from '@angular/material/icon';
 import {MatListModule} from '@angular/material/list';
+import {FlexLayoutModule} from "@angular/flex-layout";
+import { MenuComponent } from './menu/menu.component';
+import { ResultsComponent } from './results/results.component';
+import {MatGridListModule} from "@angular/material/grid-list";
+import { NewsletterComponent } from './newsletter/newsletter.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
 
 @NgModule({
   declarations: [
@@ -20,18 +26,24 @@ import {MatListModule} from '@angular/material/list';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
+    MenuComponent,
+    ResultsComponent,
+    NewsletterComponent,
+    TestimonialsComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    LayoutModule,
-    MatToolbarModule,
-    MatButtonModule,
-    MatSidenavModule,
-    MatIconModule,
-    MatListModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        LayoutModule,
+        MatToolbarModule,
+        MatButtonModule,
+        MatSidenavModule,
+        MatIconModule,
+        MatListModule,
+        FlexLayoutModule,
+        MatGridListModule,
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

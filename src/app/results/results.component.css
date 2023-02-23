@@ -1,0 +1,135 @@
+.innerBox {
+  position: absolute;
+  width: 683px;
+  height: 513px;
+  left: 537px;
+  top: 128px;
+}
+
+.outerBox {
+  position: absolute;
+  width: 1296px;
+  height: 836px;
+  left: 255px;
+  top: 1801px;
+  background: #000000;
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  margin-left: 52px;
+  margin-top: 28px;
+  padding: 32px 16px;
+
+}
+
+
+
+.percent {
+  position: absolute;
+  text-align: center;
+  color: #54BFC9;
+}
+
+.resultCaption {
+  position: absolute;
+  width: 398px;
+  height: 46px;
+  top: 134px;
+
+  /* Headings/H2 */
+
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  /* identical to box height, or 128% */
+
+  color: #FFFFFF;
+}
+
+.resultDescription {
+  position: absolute;
+  width: 397.27px;
+  height: 90px;
+
+  /* Body/Default */
+  top: 180px;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+
+
+  color: #FFFFFF;
+}
+
+.resultContainer {
+  position: absolute;
+  width: 398px;
+  height: 294px;
+  left: 20px;
+  top: 134px;
+}
+
+.idCard {
+  position: absolute;
+  width: 256px;
+  height: 769px;
+  left: 317px;
+  top: 0;
+  object-fit: cover;
+}
+
+.divider1 {
+  position: absolute;
+  width: 1px;
+  height: 514px;
+  left: 364px;
+  top: 0;
+}
+
+.divider2 {
+  position: absolute;
+  width: 683px;
+  height: 1px;
+  left: 0;
+  top: 258px;
+  object-fit: cover;
+}
+
+.description {
+  width: 204px;
+  height: 20px;
+  left: 500px;
+  top: 240px;
+
+  /* Text single/300/Regular */
+
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100px;
+  /* identical to box height, or 100% */
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+
+}
+.tile {
+  position: absolute;
+  /* Special headings/Display 3 */
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  /* identical to box height, or 114% */
+  text-align: center;
+  /* Neutral Colors/Headings Black */
+  color: #FFFFFF;
+}

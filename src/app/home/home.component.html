@@ -1,6 +1,23 @@
-<div class="body">
-  <app-header></app-header>
-  <p class="paragrah">NFTs. CRICKET. ANALYTICS.</p>
-  <p class="description">Unlock the power of data and take your cricket game to the next level. With our cutting-edge cricket data analysis tools, you'll gain valuable insights into player performance, team strategies, and more. Join the revolution in cricket analysis today and give your team the advantage it deserves</p>
-  <p class="cover"><img src="assets/cover.png"></p>
-</div>
+  <div class="player-desc" fxLayout="row">
+    <div class="player">
+      <img src="assets/player.png" alt="player">
+    </div>
+    <div fxLayout="column" class="nftdesc">
+      <h1 class="paragrah">NFTs. CRICKET. ANALYTICS </h1>
+      <p class="description">Unlock the power of data and take your cricket game to the next level. With our
+        cutting-edge cricket data analysis tools, you'll gain valuable insights into player performance, team
+        strategies, and more. Join the revolution in cricket analysis today and give your team the advantage it
+        deserves</p>
+      <div>
+        <button class="start">Get started</button>
+      </div>
+    </div>
+  </div>
+  <div fxLayout="column">
+    <app-menu></app-menu>
+    <app-results></app-results>
+    <app-newsletter></app-newsletter>
+    <app-testimonials></app-testimonials>
+  </div>
+
+

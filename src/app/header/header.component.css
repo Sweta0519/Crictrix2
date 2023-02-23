@@ -1,9 +1,19 @@
 .logo {
   position: absolute;
-  left: 2%;
-  right: 87.33%;
-  top: 3.14%;
-  bottom: 5.69%;
+  left: 0;
+  top: 16px;
+  width: 204px;
+  object-fit: cover;
+  height: 75px;
+}
+
+.menu {
+  height: 62px;
+  left: 46px;
+  position: relative;
+  top: 26px;
+  width: 1314px;
+  float: right;
 }
 
 .nav-bar {
@@ -11,32 +21,29 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  padding: 0px 0px 0px 25px;
+  padding: 0 0 0 25px;
   gap: 24px;
 
   position: absolute;
-  left: 74.31%;
-  right: 0%;
-  top: 4.14%;
-  bottom: 0%;
-  width: 377.67px;
-  height: 18px;
-  flex: none;
+  left: 50.31%;
+  bottom: 0;
+  width: 651px;
+  height: 62px;
   order: 0;
-  flex-grow: 0;
   font-weight: 400;
   font-size: 18px;
-  color: #5D5A88;
+  color: #FFFFFF;
 }
 
 .nav-bar > a {
   text-decoration: none;
 }
 
-a:visited{
-  color:inherit;
+a:visited {
+  color: inherit;
 }
-.login{
+
+.contact-us {
   box-sizing: border-box;
 
   /* Auto layout */
@@ -48,7 +55,7 @@ a:visited{
   padding: 18px 24px;
   gap: 8px;
 
-  width: 87px;
+  width: 130px;
   height: 54px;
 
   background: #54BFC9;
@@ -57,11 +64,14 @@ a:visited{
   border: 1px solid #D4D2E3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
-  font-family: 'DM Sans';
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
   /* identical to box height, or 112% */
 
   text-align: center;
