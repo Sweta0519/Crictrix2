@@ -67,3 +67,5 @@ handlers:
     redirect_http_response_code: 301
 
 
+run:
+  port: 8080
