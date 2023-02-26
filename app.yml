@@ -1,6 +1,9 @@
 runtime: nodejs18
-manual_scaling:
-  instances: 4
+automatic_scaling:
+  min_instances: 1
+  max_instances: 4
+  cpu_utilization:
+    target_utilization: 0.5
 service: angular
 handlers:
   - url: /(.+\.js)
