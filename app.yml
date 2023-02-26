@@ -65,7 +65,5 @@ handlers:
     upload: dist/crictrix2/index.html
     secure: always
     redirect_http_response_code: 301
-
-
 run:
   port: 8080
