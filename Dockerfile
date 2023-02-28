@@ -21,4 +21,4 @@ COPY . .
 CMD ["ng","serve"]
 
 # Expose port 8080
-EXPOSE 80
+ENV PORT 80
