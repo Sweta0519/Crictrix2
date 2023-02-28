@@ -1,10 +1,9 @@
 runtime: nodejs18
 automatic_scaling:
   min_instances: 1
-  max_instances: 4
-  cpu_utilization:
-    target_utilization: 0.5
+  max_instances: 3
 service: angular
+
 handlers:
   - url: /(.+\.js)
     static_files: dist/crictrix2/\1
@@ -65,5 +64,5 @@ handlers:
     upload: dist/crictrix2/index.html
     secure: always
     redirect_http_response_code: 301
-run:
-  port: 8080
+env_variables:
+  PORT: "8080"
