@@ -20,6 +20,5 @@ COPY . .
 # For NPM
 CMD ["ng","serve", "--" ,"--host", "0.0.0.0", "--disable-host-check"]
 
-# Expose port 8080
-ENV PORT 80
-ENV HOST 0.0.0.0
+# Expose port 80
+EXPOSE 4200
