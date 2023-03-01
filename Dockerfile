@@ -23,4 +23,4 @@ CMD ["npm", "start"]
 
 
 # Expose port 8080
-EXPOSE 80
+ENV PORT=80
