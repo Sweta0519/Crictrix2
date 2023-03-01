@@ -21,4 +21,4 @@ COPY . .
 CMD ["ng","serve", "--" ,"--host", "0.0.0.0", "--disable-host-check"]
 
 # Expose port 80
-EXPOSE 4200
+ENV PORT 4200
