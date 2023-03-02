@@ -18,8 +18,8 @@ COPY . .
 # Set the command to run the application
 # For NPM
 #CMD ["ng","serve","--host", "0.0.0.0", "--disable-host-check"]
-CMD ["npm", "start"]
+CMD ["npm", "start","--port","$PORT"]
 
 
 # Expose port 8080
-ENV PORT=80
+EXPOSE $PORT
