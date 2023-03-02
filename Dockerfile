@@ -1,5 +1,5 @@
 # Use the official Node.js 18 image as the base image
-FROM node:18
+FROM node:16
 
 # Set the working directory to /app
 WORKDIR /app
@@ -19,7 +19,7 @@ COPY . .
 # Set the command to run the application
 # For NPM
 #CMD ["ng","serve","--host", "0.0.0.0", "--disable-host-check"]
-CMD ["npm", "start"]
+CMD ["npm", "start", "--", "--port", "80"]
 
 
 # Expose port 8080
