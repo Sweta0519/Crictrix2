@@ -1,10 +1,9 @@
 # Use the official Node.js 18 image as the base image
-FROM node:16
+FROM node:16.19.1
 
 # Set the working directory to /app
 WORKDIR /app
 
-ENV PATH="/Crictrix2/node_modules/.bin:$PATH"
 
 
 # Copy the package.json and package-lock.json files to the container
@@ -19,7 +18,7 @@ COPY . .
 # Set the command to run the application
 # For NPM
 #CMD ["ng","serve","--host", "0.0.0.0", "--disable-host-check"]
-CMD ["npm", "start", "--", "--port", "80"]
+CMD ["npm", "start"]
 
 
 # Expose port 8080
