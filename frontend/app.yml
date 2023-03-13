@@ -1,0 +1,66 @@
+runtime: nodejs16
+automatic_scaling:
+  min_instances: 1
+  max_instances: 3
+service: angular
+
+handlers:
+  - url: /(.+\.js)
+    static_files: dist/crictrix/\1
+    upload: dist/crictrix/(.+\.js)
+    secure: always
+    redirect_http_response_code: 301
+
+  - url: /(.+\.css)
+    static_files: dist/crictrix/\1
+    upload: dist/crictrix/(.+\.css)
+    secure: always
+    redirect_http_response_code: 301
+
+  - url: /(.+\.png)
+    static_files: dist/crictrix/\1
+    upload: dist/crictrix/(.+\.png)
+    secure: always
+    redirect_http_response_code: 301
+
+  - url: /(.+\.jpg)
+    static_files: dist/crictrix/\1
+    upload: dist/crictrix/(.+\.jpg)
+    secure: always
+    redirect_http_response_code: 301
+
+  - url: /(.+\.gif)
+    static_files: dist/crictrix/\1
+    upload: dist/crictrix/(.+\.gif)
+    secure: always
+    redirect_http_response_code: 301
+
+  - url: /(.+\.svg)
+    static_files: dist/crictrix/\1
+    upload: dist/crictrix/(.+\.svg)
+    secure: always
+    redirect_http_response_code: 301
+
+  - url: /favicon.ico
+    static_files: dist/crictrix/favicon.ico
+    upload: dist/crictrix/favicon.ico
+    secure: always
+    redirect_http_response_code: 301
+
+  - url: /(.+\.json)
+    static_files: dist/crictrix/\1
+    upload: dist/crictrix/(.+\.json)
+    secure: always
+    redirect_http_response_code: 301
+
+  - url: /(.+)
+    static_files: dist/crictrix/index.html
+    upload: dist/crictrix/index.html
+    secure: always
+    redirect_http_response_code: 301
+
+  - url: /
+    static_files: dist/crictrix/index.html
+    upload: dist/crictrix/index.html
+    secure: always
+    redirect_http_response_code: 301

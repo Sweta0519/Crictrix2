@@ -1,0 +1,3 @@
+rootProject.name = 'Crictrix'
+include 'frontend'
+include 'webapp'

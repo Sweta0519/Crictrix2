@@ -1,35 +1,20 @@
-# Use the official Node.js 16 image as the base image
-FROM node:16 as build
+# Stage 1: Build frontend
+FROM node:alpine as frontend-build
+WORKDIR /crictrix/frontend
+COPY frontend/package*.json ./
+COPY frontend/ .
+RUN npm ci && npm run build --prod
 
-# Set the working directory to /app
-WORKDIR /app
+# Stage 2: Build backend
+FROM gradle:8.0.2 as backend-build
+WORKDIR /crictrix/webapp
+COPY webapp/ .
+RUN gradle build --no-daemon
 
-# Copy the package.json and package-lock.json files to the container
-COPY package*.json ./
-
-# Install dependencies
-RUN npm install
-
-# Copy the rest of the application code to the container
-COPY . .
-
-# Build the application
-RUN npm run build
-
-# Use a smaller image for the final stage
-FROM node:16-alpine
-
-# Set the working directory to /app
-WORKDIR /app
-
-# Copy the build output from the previous stage to this stage
-COPY --from=build /app/dist .
-
-# Install production dependencies only
-RUN npm install --production
-
-# Set the command to run the application
-CMD ["npm", "start", "--", "--port", "$PORT"]
-
-# Expose the port that the application will listen on
-EXPOSE $PORT
+# Stage 3: Create final image
+FROM adoptopenjdk:15-jdk-hotspot-focal as runtime
+WORKDIR /crictrix
+COPY --from=frontend-build /crictrix/frontend/dist/crictrix ./static
+COPY --from=backend-build /crictrix/webapp/build/libs/webapp-0.0.1-SNAPSHOT.jar ./webapp-0.0.1-SNAPSHOT.jar
+CMD ["java", "-jar", "webapp-0.0.1-SNAPSHOT.jar"]
+EXPOSE 8080
