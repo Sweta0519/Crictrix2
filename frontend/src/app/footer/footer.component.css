@@ -1,4 +1,4 @@
-.footer{
+.footer {
   position: absolute;
   min-width: 1920px;
   height: 162px;
@@ -6,14 +6,16 @@
   top: 3900px;
   background: #54BFC9;
 }
-.footer-logo{
+
+.footer-logo {
   position: absolute;
   width: 196.05px;
   height: 162px;
   left: 20px;
   top: 1px;
 }
-.copyright{
+
+.copyright {
   position: absolute;
   width: 402px;
   height: 18px;
@@ -26,8 +28,6 @@
   font-size: 18px;
   line-height: 18px;
   /* identical to box height, or 100% */
-
   text-align: center;
-
   color: #F9F9FF;
 }
