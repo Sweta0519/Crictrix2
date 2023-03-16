@@ -19,6 +19,8 @@ import { ResultsComponent } from './results/results.component';
 import {MatGridListModule} from "@angular/material/grid-list";
 import { NewsletterComponent } from './newsletter/newsletter.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { PlayerComponent } from './home/player/player.component';
+import { FlashhandbookComponent } from './flashhandbook/flashhandbook.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,8 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
     ResultsComponent,
     NewsletterComponent,
     TestimonialsComponent,
+    PlayerComponent,
+    FlashhandbookComponent,
   ],
     imports: [
         BrowserModule,

@@ -13,7 +13,7 @@
   position: relative;
   top: 27px;
   width: 1310px;
-  float: right;
+  float: inherit;
 }
 
 .nav-bar {
